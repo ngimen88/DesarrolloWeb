@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria</title>
+  <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body class="bodyGaleria">
+	
+	<header class="offcanvas-menu">
+		<input type="checkbox" id="toogle-menu" />
+	
+		<label for="toogle-menu" class="toogle-open"><span></span></label>
+	
+		 <nav >
+			<div>
+				<a > <i></i>Ar</a>
+				<label for="toogle-menu" class="toogle-close">
+					<span></span>
+				</label>
+			</div>
+	
+			<ul>
+				<li><a  href="/index.html">Home</a></li>
+				<li><a 	href="concepto.html">Concepto</a></li>
+				<li><a  href="galeria.html">Galeria</a></li>
+				<li><a 	href="noticias.html">Noticias</a></li>
+				<li><a  href="contacto.html">Contacto</a></li>	
+			</ul>
+		</nav>
+	</header>
+
+	<main class="mainGaleria">
+
+
+		<ul class="grid">
+			<li>
+			  <figure class="grid__figure">
+				<img  class="imgGaleria" src="https://mediapipe.dev/assets/img/photos/holistic_1.jpg" alt="">
+				<figcaption>PATRONES</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" src="https://mediapipe.dev/assets/img/photos/objectron.jpg" alt="">
+				<figcaption>ESCANEO DE OBJETO.</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" src="https://mediapipe.dev/assets/img/photos/demo_object_detector.jpg" alt="">
+				<figcaption>DETECCION DE OBJETOS.</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" src="https://mediapipe.dev/assets/img/photos/demo_face_detector.jpg" alt="">
+				<figcaption>DETECCION DE ROSTRO</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" src="https://mediapipe.dev/assets/img/photos/demo_hand_tracking.jpg" alt="">
+				<figcaption>TRACKEO DE MANO.</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" src="https://mediapipe.dev/assets/img/photos/pose_1.jpg" alt="">
+				<figcaption>POSE DE MANO.</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" src="https://mediapipe.dev/assets/img/photos/faceMesh.jpg" alt="">
+				<figcaption>MALLA FACIAL</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" class="" src="https://www.automaticaeinstrumentacion.com/images/showid2/4321112?w=900&mh=700" alt="">
+				<figcaption>RECONOCIMIENTO DE FALLAS.</figcaption>
+			  </figure>
+			</li>
+			<li>
+			  <figure class="grid__figure">
+				<img class="imgGaleria" src="https://www.ekon.es/wp-content/uploads/2019/12/realidad-aumentada-1.jpg" alt="">
+				<figcaption>DISEÑO INDUSTRIAL.</figcaption>
+			  </figure>
+			</li>
+			<li>
+				<figure class="grid__figure">
+				  <img class="imgGaleria" src="https://www.edsrobotics.com/wp-content/uploads/2021/07/realidad-aumentada-que-es-1200x900.jpg" alt="">
+				  <figcaption>USO INDUSTRIAL.</figcaption>
+				</figure>
+			  </li>
+			  <li>
+				<figure class="grid__figure">
+				  <img class="imgGaleria" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjnf9W719dW65EiNYZ5WXmP4IpTWCbtWi7YurXJIveLcjU7pGTATTc2PEs-VfO80zdLc&usqp=CAU" alt="">
+				  <figcaption>PROYECTOS FUTUROS.</figcaption>
+				</figure>
+			  </li> 
+			  <li>
+				<figure class="grid__figure">
+				  <img class="imgGaleria" src="data:image/jpeg;base64,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" alt="">
+				  <figcaption>USO MEDICINAL.</figcaption>
+				</figure>
+			  </li>
+		  </ul>
+
+	</main>
+
+
+	  <footer>
+		
+		<div class="social-media-links">
+		  <ul>
+			<li>
+			  <!-- twitter -->
+			  <a href="#">
+				<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M9.5 27.1c11.2 0 17.4-9.3 17.4-17.4 0-0.3 0-0.5 0-0.8 1.2-0.9 2.2-1.9 3-3.2 -1.1 0.5-2.3 0.8-3.5 1 1.3-0.8 2.2-2 2.7-3.4 -1.2 0.7-2.5 1.2-3.9 1.5 -1.1-1.2-2.7-1.9-4.5-1.9 -3.4 0-6.1 2.7-6.1 6.1 0 0.5 0.1 0.9 0.2 1.4C9.7 10.1 5.2 7.7 2.2 4 1.7 4.9 1.4 6 1.4 7.1c0 2.1 1.1 4 2.7 5.1 -1 0-1.9-0.3-2.8-0.8 0 0 0 0.1 0 0.1 0 3 2.1 5.4 4.9 6 -0.5 0.1-1.1 0.2-1.6 0.2 -0.4 0-0.8 0-1.1-0.1 0.8 2.4 3 4.2 5.7 4.2 -2.1 1.6-4.7 2.6-7.6 2.6 -0.5 0-1 0-1.5-0.1C2.8 26.1 6 27.1 9.5 27.1"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M9.5 27.1c11.2 0 17.4-9.3 17.4-17.4 0-0.3 0-0.5 0-0.8 1.2-0.9 2.2-1.9 3-3.2 -1.1 0.5-2.3 0.8-3.5 1 1.3-0.8 2.2-2 2.7-3.4 -1.2 0.7-2.5 1.2-3.9 1.5 -1.1-1.2-2.7-1.9-4.5-1.9 -3.4 0-6.1 2.7-6.1 6.1 0 0.5 0.1 0.9 0.2 1.4C9.7 10.1 5.2 7.7 2.2 4 1.7 4.9 1.4 6 1.4 7.1c0 2.1 1.1 4 2.7 5.1 -1 0-1.9-0.3-2.8-0.8 0 0 0 0.1 0 0.1 0 3 2.1 5.4 4.9 6 -0.5 0.1-1.1 0.2-1.6 0.2 -0.4 0-0.8 0-1.1-0.1 0.8 2.4 3 4.2 5.7 4.2 -2.1 1.6-4.7 2.6-7.6 2.6 -0.5 0-1 0-1.5-0.1C2.8 26.1 6 27.1 9.5 27.1"/>
+				</svg>
+			  </a>
+			</li>
+			<li>
+			  <!-- facebook -->
+			  <a href="#">
+				<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M28.3 0.1H1.7c-0.9 0-1.6 0.7-1.6 1.6v26.5c0 0.9 0.7 1.6 1.6 1.6H16V18.4h-3.9v-4.5H16v-3.3c0-3.9 2.4-5.9 5.8-5.9 1.6 0 3.1 0.1 3.5 0.2v4l-2.4 0c-1.9 0-2.2 0.9-2.2 2.2v2.9h4.5l-0.6 4.5h-3.9v11.5h7.6c0.9 0 1.6-0.7 1.6-1.6V1.7C29.9 0.8 29.2 0.1 28.3 0.1z"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M28.3 0.1H1.7c-0.9 0-1.6 0.7-1.6 1.6v26.5c0 0.9 0.7 1.6 1.6 1.6H16V18.4h-3.9v-4.5H16v-3.3c0-3.9 2.4-5.9 5.8-5.9 1.6 0 3.1 0.1 3.5 0.2v4l-2.4 0c-1.9 0-2.2 0.9-2.2 2.2v2.9h4.5l-0.6 4.5h-3.9v11.5h7.6c0.9 0 1.6-0.7 1.6-1.6V1.7C29.9 0.8 29.2 0.1 28.3 0.1z"/>
+				</svg>
+			  </a>
+			</li>
+			<li>
+			  <!-- youtube -->
+			  <a href="#">
+				<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M29.7 9c0 0-0.3-2.1-1.2-3 -1.1-1.2-2.4-1.2-3-1.3C21.3 4.5 15 4.5 15 4.5h0c0 0-6.3 0-10.5 0.3C3.9 4.8 2.6 4.8 1.5 6 0.6 6.9 0.3 9 0.3 9S0 11.4 0 13.9v2.3C0 18.6 0.3 21 0.3 21s0.3 2.1 1.2 3c1.1 1.2 2.6 1.2 3.3 1.3C7.2 25.5 15 25.6 15 25.6s6.3 0 10.5-0.3c0.6-0.1 1.9-0.1 3-1.3 0.9-0.9 1.2-3 1.2-3s0.3-2.4 0.3-4.9v-2.3C30 11.4 29.7 9 29.7 9zM11.9 18.9l0-8.4 8.1 4.2L11.9 18.9z"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M29.7 9c0 0-0.3-2.1-1.2-3 -1.1-1.2-2.4-1.2-3-1.3C21.3 4.5 15 4.5 15 4.5h0c0 0-6.3 0-10.5 0.3C3.9 4.8 2.6 4.8 1.5 6 0.6 6.9 0.3 9 0.3 9S0 11.4 0 13.9v2.3C0 18.6 0.3 21 0.3 21s0.3 2.1 1.2 3c1.1 1.2 2.6 1.2 3.3 1.3C7.2 25.5 15 25.6 15 25.6s6.3 0 10.5-0.3c0.6-0.1 1.9-0.1 3-1.3 0.9-0.9 1.2-3 1.2-3s0.3-2.4 0.3-4.9v-2.3C30 11.4 29.7 9 29.7 9zM11.9 18.9l0-8.4 8.1 4.2L11.9 18.9z"/>
+				</svg>
+			  </a>
+			</li>
+			<li>
+			  <!-- instagram -->
+			  <a href="#">
+				<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M15 2.8c4 0 4.4 0 6 0.1 1.4 0.1 2.2 0.3 2.8 0.5 0.7 0.3 1.2 0.6 1.7 1.1 0.5 0.5 0.8 1 1.1 1.7C26.8 6.8 27 7.6 27.1 9c0.1 1.6 0.1 2 0.1 6s0 4.4-0.1 6c-0.1 1.4-0.3 2.2-0.5 2.8 -0.3 0.7-0.6 1.2-1.1 1.7 -0.5 0.5-1 0.8-1.7 1.1 -0.5 0.2-1.3 0.4-2.8 0.5 -1.6 0.1-2 0.1-6 0.1s-4.4 0-6-0.1c-1.4-0.1-2.2-0.3-2.8-0.5 -0.7-0.3-1.2-0.6-1.7-1.1 -0.5-0.5-0.8-1-1.1-1.7C3.2 23.2 3 22.4 2.9 21c-0.1-1.6-0.1-2-0.1-6s0-4.4 0.1-6C3 7.6 3.2 6.8 3.4 6.2 3.7 5.5 4 5.1 4.5 4.5c0.5-0.5 1-0.8 1.7-1.1C6.8 3.2 7.6 3 9 2.9 10.6 2.8 11 2.8 15 2.8M15 0.2c-4 0-4.5 0-6.1 0.1C7.3 0.3 6.2 0.6 5.3 0.9c-1 0.4-1.8 0.9-2.6 1.7C1.8 3.5 1.3 4.3 0.9 5.3c-0.4 0.9-0.6 2-0.7 3.6C0.2 10.5 0.1 11 0.1 15c0 4 0 4.5 0.1 6.1 0.1 1.6 0.3 2.7 0.7 3.6 0.4 1 0.9 1.8 1.7 2.6 0.8 0.8 1.7 1.3 2.6 1.7 0.9 0.4 2 0.6 3.6 0.7 1.6 0.1 2.1 0.1 6.1 0.1s4.5 0 6.1-0.1c1.6-0.1 2.7-0.3 3.6-0.7 1-0.4 1.8-0.9 2.6-1.7 0.8-0.8 1.3-1.7 1.7-2.6 0.4-0.9 0.6-2 0.7-3.6 0.1-1.6 0.1-2.1 0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.7-0.7-3.6 -0.4-1-0.9-1.8-1.7-2.6 -0.8-0.8-1.7-1.3-2.6-1.7 -0.9-0.4-2-0.6-3.6-0.7C19.5 0.2 19 0.2 15 0.2L15 0.2z"/>
+				  <path class="st0" d="M15 7.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6 7.6-3.4 7.6-7.6S19.2 7.4 15 7.4zM15 20c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5S17.7 20 15 20z"/>
+				  <circle class="st0" cx="22.9" cy="7.1" r="1.8"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				  <path class="st0" d="M15 2.8c4 0 4.4 0 6 0.1 1.4 0.1 2.2 0.3 2.8 0.5 0.7 0.3 1.2 0.6 1.7 1.1 0.5 0.5 0.8 1 1.1 1.7C26.8 6.8 27 7.6 27.1 9c0.1 1.6 0.1 2 0.1 6s0 4.4-0.1 6c-0.1 1.4-0.3 2.2-0.5 2.8 -0.3 0.7-0.6 1.2-1.1 1.7 -0.5 0.5-1 0.8-1.7 1.1 -0.5 0.2-1.3 0.4-2.8 0.5 -1.6 0.1-2 0.1-6 0.1s-4.4 0-6-0.1c-1.4-0.1-2.2-0.3-2.8-0.5 -0.7-0.3-1.2-0.6-1.7-1.1 -0.5-0.5-0.8-1-1.1-1.7C3.2 23.2 3 22.4 2.9 21c-0.1-1.6-0.1-2-0.1-6s0-4.4 0.1-6C3 7.6 3.2 6.8 3.4 6.2 3.7 5.5 4 5.1 4.5 4.5c0.5-0.5 1-0.8 1.7-1.1C6.8 3.2 7.6 3 9 2.9 10.6 2.8 11 2.8 15 2.8M15 0.2c-4 0-4.5 0-6.1 0.1C7.3 0.3 6.2 0.6 5.3 0.9c-1 0.4-1.8 0.9-2.6 1.7C1.8 3.5 1.3 4.3 0.9 5.3c-0.4 0.9-0.6 2-0.7 3.6C0.2 10.5 0.1 11 0.1 15c0 4 0 4.5 0.1 6.1 0.1 1.6 0.3 2.7 0.7 3.6 0.4 1 0.9 1.8 1.7 2.6 0.8 0.8 1.7 1.3 2.6 1.7 0.9 0.4 2 0.6 3.6 0.7 1.6 0.1 2.1 0.1 6.1 0.1s4.5 0 6.1-0.1c1.6-0.1 2.7-0.3 3.6-0.7 1-0.4 1.8-0.9 2.6-1.7 0.8-0.8 1.3-1.7 1.7-2.6 0.4-0.9 0.6-2 0.7-3.6 0.1-1.6 0.1-2.1 0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.7-0.7-3.6 -0.4-1-0.9-1.8-1.7-2.6 -0.8-0.8-1.7-1.3-2.6-1.7 -0.9-0.4-2-0.6-3.6-0.7C19.5 0.2 19 0.2 15 0.2L15 0.2z"/>
+				  <path class="st0" d="M15 7.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6 7.6-3.4 7.6-7.6S19.2 7.4 15 7.4zM15 20c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5S17.7 20 15 20z"/>
+				  <circle class="st0" cx="22.9" cy="7.1" r="1.8"/>
+				</svg>
+			  </a>
+			</li>
+		  </ul>
+		</div>
+	  </footer>
+	</div>
+	<!-- partial -->
+	  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+	</div>
+	
+
+
+
+	
+	</body>
+</html>
+
+
